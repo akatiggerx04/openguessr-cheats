@@ -53,6 +53,13 @@ function openModal(lat, lng) {
 
     modal.appendChild(iframe);
     modal.appendChild(closeButton);
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.remove();
+        }
+    });
+
     document.body.appendChild(modal);
 }
 
