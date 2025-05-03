@@ -25,7 +25,7 @@ Choose one of the following modes:
 ![preview](https://github.com/akatiggerx04/openguessr-cheats/blob/main/preview-overlay.webp?raw=true)
 1. Copy the following code:
 ```javascript
-fetch('https://raw.githubusercontent.com/akatiggerx04/openguessr-cheats/refs/heads/main/cheat-preview.js').then(r => r.text()).then(eval);
+fetch('https://raw.githubusercontent.com/akatiggerx04/openguessr-cheats/refs/heads/main/cheat-overlay.js').then(r => r.text()).then(eval);
 ```
 2. Paste it in the Console tab.
 3. Press Enter to execute the code.
